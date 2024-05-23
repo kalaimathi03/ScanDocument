@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6825806A2A8F9BD80017B395 /* SetPasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682580682A8F9BD80017B395 /* SetPasswordTableViewCell.swift */; };
+		6825806B2A8F9BD80017B395 /* SetPasswordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682580692A8F9BD80017B395 /* SetPasswordTableViewCell.xib */; };
+		6825806D2A95CB1F0017B395 /* ExportPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825806C2A95CB1F0017B395 /* ExportPreviewViewController.swift */; };
+		6826F0FA2A971C7D00402110 /* PDFPasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826F0F82A971C7D00402110 /* PDFPasswordTableViewCell.swift */; };
+		6826F0FB2A971C7D00402110 /* PDFPasswordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6826F0F92A971C7D00402110 /* PDFPasswordTableViewCell.xib */; };
+		6874474D2A0DE6F3003D48BD /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874474C2A0DE6F3003D48BD /* UIViewController.swift */; };
+		6889EED52A0D54F3008F5B92 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889EED42A0D54F3008F5B92 /* UIView.swift */; };
+		6891E71E2A8C91F00016DF23 /* EditDocuemntViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891E71D2A8C91F00016DF23 /* EditDocuemntViewController.swift */; };
+		68940EC62A0EA8C100EDC05E /* SFDocumentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68940EC52A0EA8C100EDC05E /* SFDocumentHelper.swift */; };
+		6897C3D22A7A46680025A2FB /* ExportAsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6897C3D12A7A46680025A2FB /* ExportAsViewController.swift */; };
+		6897C3D42A7A57140025A2FB /* ExportAsTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6897C3D32A7A57140025A2FB /* ExportAsTitleTableViewCell.swift */; };
+		6897C3D62A7A586C0025A2FB /* ExportFormatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6897C3D52A7A586C0025A2FB /* ExportFormatsTableViewCell.swift */; };
+		689BDAD12A2EC532002955CD /* RectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDAD02A2EC532002955CD /* RectangleDetector.swift */; };
+		689BDAD32A2EC553002955CD /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDAD22A2EC553002955CD /* Rectangle.swift */; };
+		689BDAD52A2EC57A002955CD /* Extendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDAD42A2EC57A002955CD /* Extendable.swift */; };
+		689BDAD72A2EC61B002955CD /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDAD62A2EC61B002955CD /* CGPoint+Utils.swift */; };
+		689BDAD92A2EC644002955CD /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDAD82A2EC644002955CD /* RectangleView.swift */; };
+		689BDADB2A2EC6A3002955CD /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDADA2A2EC6A3002955CD /* CGAffineTransform+Utils.swift */; };
+		689BDADD2A2EC6C8002955CD /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDADC2A2EC6C8002955CD /* EditScanCornerView.swift */; };
+		689BDADF2A2EC71A002955CD /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDADE2A2EC71A002955CD /* Array+Utils.swift */; };
+		689BDAE12A2EC8F6002955CD /* RectangleFeaturesFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BDAE02A2EC8F6002955CD /* RectangleFeaturesFunnel.swift */; };
+		68A0341A2A0D433C00D04CCC /* PdfViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A034192A0D433C00D04CCC /* PdfViewViewController.swift */; };
+		68A0341C2A0D462800D04CCC /* PdfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0341B2A0D462800D04CCC /* PdfView.swift */; };
+		68A3353E2A8E048400C0BADD /* ExportTypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A3353C2A8E048400C0BADD /* ExportTypesTableViewCell.swift */; };
+		68A3353F2A8E048400C0BADD /* ExportTypesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A3353D2A8E048400C0BADD /* ExportTypesTableViewCell.xib */; };
+		68A335432A8E0C5500C0BADD /* ResolutionTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A335412A8E0C5500C0BADD /* ResolutionTypeTableViewCell.xib */; };
+		68A335452A8E16F500C0BADD /* ResolutionTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A335442A8E16F500C0BADD /* ResolutionTypeTableViewCell.swift */; };
+		68A982492A78C7AA00EEC793 /* DocumentViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A982472A78C7AA00EEC793 /* DocumentViewCollectionViewCell.swift */; };
+		68A9824A2A78C7AA00EEC793 /* DocumentViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A982482A78C7AA00EEC793 /* DocumentViewCollectionViewCell.xib */; };
+		68A9824C2A78C7CA00EEC793 /* DocumentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A9824B2A78C7CA00EEC793 /* DocumentViewViewController.swift */; };
+		68C50B0D2A11E437005D05D3 /* DocumentReorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50B0C2A11E437005D05D3 /* DocumentReorderViewController.swift */; };
+		68C50B0F2A12385F005D05D3 /* DocumentFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50B0E2A12385F005D05D3 /* DocumentFilterViewController.swift */; };
+		68C50B122A123C27005D05D3 /* SelectFilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50B102A123C27005D05D3 /* SelectFilterTableViewCell.swift */; };
+		68C50B132A123C28005D05D3 /* SelectFilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C50B112A123C27005D05D3 /* SelectFilterTableViewCell.xib */; };
+		68C50B152A13724C005D05D3 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50B142A13724C005D05D3 /* UIImage.swift */; };
+		68C50B172A13E879005D05D3 /* SFDocumentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50B162A13E879005D05D3 /* SFDocumentConfig.swift */; };
+		68C50B192A14A703005D05D3 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50B182A14A703005D05D3 /* PopoverViewController.swift */; };
+		68DF4F2B2A0E29BB00A2EEA3 /* DocumentPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF4F2A2A0E29BB00A2EEA3 /* DocumentPreviewViewController.swift */; };
+		68DF4F2E2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF4F2C2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.swift */; };
+		68DF4F2F2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DF4F2D2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.xib */; };
+		68DF4F312A0E381B00A2EEA3 /* cropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF4F302A0E381B00A2EEA3 /* cropView.swift */; };
+		68DF4F332A0E3BD200A2EEA3 /* CropViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF4F322A0E3BD200A2EEA3 /* CropViewViewController.swift */; };
+		68E60EDD2A70388A0064A210 /* Documents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68E60EDB2A70388A0064A210 /* Documents.xcdatamodeld */; };
+		68E60EE02A70DDEE0064A210 /* DocumentStorageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E60EDF2A70DDEE0064A210 /* DocumentStorageConfiguration.swift */; };
+		68E8132F2A0C9B530091F4A8 /* ScanflowDocumentCapture.docc in Sources */ = {isa = PBXBuildFile; fileRef = 68E8132E2A0C9B530091F4A8 /* ScanflowDocumentCapture.docc */; };
+		68E813302A0C9B530091F4A8 /* ScanflowDocumentCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E8132D2A0C9B530091F4A8 /* ScanflowDocumentCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E8133F2A0C9CEC0091F4A8 /* DocumentCapture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E8133E2A0C9CEC0091F4A8 /* DocumentCapture.storyboard */; };
+		68E813412A0CA21E0091F4A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E813402A0CA21E0091F4A8 /* HomeViewController.swift */; };
+		68E813432A0CA2320091F4A8 /* DocumentScaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E813422A0CA2320091F4A8 /* DocumentScaningViewController.swift */; };
+		68E813472A0CA9800091F4A8 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E813462A0CA9800091F4A8 /* CircleButton.swift */; };
+		68E8134F2A0CAE070091F4A8 /* DocumentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8134D2A0CAE070091F4A8 /* DocumentListTableViewCell.swift */; };
+		68E813502A0CAE070091F4A8 /* DocumentListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E8134E2A0CAE070091F4A8 /* DocumentListTableViewCell.xib */; };
+		68E8137D2A0CC9D30091F4A8 /* SFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8137C2A0CC9D30091F4A8 /* SFButton.swift */; };
+		68E813802A0CECA40091F4A8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8137F2A0CECA40091F4A8 /* UIColor.swift */; };
+		68E813842A0D08FA0091F4A8 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E813832A0D08FA0091F4A8 /* Media.xcassets */; };
+		8BD887C92BB40C7F000C72AC /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C82BB40C7F000C72AC /* ScanflowCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		682580682A8F9BD80017B395 /* SetPasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordTableViewCell.swift; sourceTree = "<group>"; };
+		682580692A8F9BD80017B395 /* SetPasswordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetPasswordTableViewCell.xib; sourceTree = "<group>"; };
+		6825806C2A95CB1F0017B395 /* ExportPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPreviewViewController.swift; sourceTree = "<group>"; };
+		6826F0F82A971C7D00402110 /* PDFPasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPasswordTableViewCell.swift; sourceTree = "<group>"; };
+		6826F0F92A971C7D00402110 /* PDFPasswordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PDFPasswordTableViewCell.xib; sourceTree = "<group>"; };
+		6874474C2A0DE6F3003D48BD /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		6889EED42A0D54F3008F5B92 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		6891E71D2A8C91F00016DF23 /* EditDocuemntViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDocuemntViewController.swift; sourceTree = "<group>"; };
+		68940EC52A0EA8C100EDC05E /* SFDocumentHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDocumentHelper.swift; sourceTree = "<group>"; };
+		6897C3D12A7A46680025A2FB /* ExportAsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportAsViewController.swift; sourceTree = "<group>"; };
+		6897C3D32A7A57140025A2FB /* ExportAsTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportAsTitleTableViewCell.swift; sourceTree = "<group>"; };
+		6897C3D52A7A586C0025A2FB /* ExportFormatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFormatsTableViewCell.swift; sourceTree = "<group>"; };
+		689BDAD02A2EC532002955CD /* RectangleDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDetector.swift; sourceTree = "<group>"; };
+		689BDAD22A2EC553002955CD /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		689BDAD42A2EC57A002955CD /* Extendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extendable.swift; sourceTree = "<group>"; };
+		689BDAD62A2EC61B002955CD /* CGPoint+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Utils.swift"; sourceTree = "<group>"; };
+		689BDAD82A2EC644002955CD /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		689BDADA2A2EC6A3002955CD /* CGAffineTransform+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Utils.swift"; sourceTree = "<group>"; };
+		689BDADC2A2EC6C8002955CD /* EditScanCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScanCornerView.swift; sourceTree = "<group>"; };
+		689BDADE2A2EC71A002955CD /* Array+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		689BDAE02A2EC8F6002955CD /* RectangleFeaturesFunnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleFeaturesFunnel.swift; sourceTree = "<group>"; };
+		68A034192A0D433C00D04CCC /* PdfViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewViewController.swift; sourceTree = "<group>"; };
+		68A0341B2A0D462800D04CCC /* PdfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfView.swift; sourceTree = "<group>"; };
+		68A3353C2A8E048400C0BADD /* ExportTypesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTypesTableViewCell.swift; sourceTree = "<group>"; };
+		68A3353D2A8E048400C0BADD /* ExportTypesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExportTypesTableViewCell.xib; sourceTree = "<group>"; };
+		68A335412A8E0C5500C0BADD /* ResolutionTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResolutionTypeTableViewCell.xib; sourceTree = "<group>"; };
+		68A335442A8E16F500C0BADD /* ResolutionTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolutionTypeTableViewCell.swift; sourceTree = "<group>"; };
+		68A982472A78C7AA00EEC793 /* DocumentViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		68A982482A78C7AA00EEC793 /* DocumentViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		68A9824B2A78C7CA00EEC793 /* DocumentViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewViewController.swift; sourceTree = "<group>"; };
+		68C50B0C2A11E437005D05D3 /* DocumentReorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentReorderViewController.swift; sourceTree = "<group>"; };
+		68C50B0E2A12385F005D05D3 /* DocumentFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFilterViewController.swift; sourceTree = "<group>"; };
+		68C50B102A123C27005D05D3 /* SelectFilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFilterTableViewCell.swift; sourceTree = "<group>"; };
+		68C50B112A123C27005D05D3 /* SelectFilterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectFilterTableViewCell.xib; sourceTree = "<group>"; };
+		68C50B142A13724C005D05D3 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		68C50B162A13E879005D05D3 /* SFDocumentConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDocumentConfig.swift; sourceTree = "<group>"; };
+		68C50B182A14A703005D05D3 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		68DF4F2A2A0E29BB00A2EEA3 /* DocumentPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPreviewViewController.swift; sourceTree = "<group>"; };
+		68DF4F2C2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPreviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		68DF4F2D2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentPreviewCollectionViewCell.xib; sourceTree = "<group>"; };
+		68DF4F302A0E381B00A2EEA3 /* cropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cropView.swift; sourceTree = "<group>"; };
+		68DF4F322A0E3BD200A2EEA3 /* CropViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewViewController.swift; sourceTree = "<group>"; };
+		68E60EDC2A70388A0064A210 /* Documents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents.xcdatamodel; sourceTree = "<group>"; };
+		68E60EDF2A70DDEE0064A210 /* DocumentStorageConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStorageConfiguration.swift; sourceTree = "<group>"; };
+		68E8132A2A0C9B530091F4A8 /* ScanflowDocumentCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScanflowDocumentCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E8132D2A0C9B530091F4A8 /* ScanflowDocumentCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanflowDocumentCapture.h; sourceTree = "<group>"; };
+		68E8132E2A0C9B530091F4A8 /* ScanflowDocumentCapture.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ScanflowDocumentCapture.docc; sourceTree = "<group>"; };
+		68E8133E2A0C9CEC0091F4A8 /* DocumentCapture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DocumentCapture.storyboard; sourceTree = "<group>"; };
+		68E813402A0CA21E0091F4A8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		68E813422A0CA2320091F4A8 /* DocumentScaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScaningViewController.swift; sourceTree = "<group>"; };
+		68E813462A0CA9800091F4A8 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		68E8134D2A0CAE070091F4A8 /* DocumentListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListTableViewCell.swift; sourceTree = "<group>"; };
+		68E8134E2A0CAE070091F4A8 /* DocumentListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentListTableViewCell.xib; sourceTree = "<group>"; };
+		68E8137C2A0CC9D30091F4A8 /* SFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFButton.swift; sourceTree = "<group>"; };
+		68E8137F2A0CECA40091F4A8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		68E813832A0D08FA0091F4A8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8BD887C82BB40C7F000C72AC /* ScanflowCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanflowCore.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E813272A0C9B530091F4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD887C92BB40C7F000C72AC /* ScanflowCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689BDACF2A2EC522002955CD /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				689BDAD02A2EC532002955CD /* RectangleDetector.swift */,
+				689BDAD22A2EC553002955CD /* Rectangle.swift */,
+				689BDAD42A2EC57A002955CD /* Extendable.swift */,
+				689BDAD62A2EC61B002955CD /* CGPoint+Utils.swift */,
+				689BDAD82A2EC644002955CD /* RectangleView.swift */,
+				689BDADA2A2EC6A3002955CD /* CGAffineTransform+Utils.swift */,
+				689BDADC2A2EC6C8002955CD /* EditScanCornerView.swift */,
+				689BDADE2A2EC71A002955CD /* Array+Utils.swift */,
+				689BDAE02A2EC8F6002955CD /* RectangleFeaturesFunnel.swift */,
+			);
+			path = detector;
+			sourceTree = "<group>";
+		};
+		68A982432A78C53800EEC793 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				68A982442A78C53F00EEC793 /* CollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		68A982442A78C53F00EEC793 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				68A982472A78C7AA00EEC793 /* DocumentViewCollectionViewCell.swift */,
+				68A982482A78C7AA00EEC793 /* DocumentViewCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		68E60EDE2A70DD9E0064A210 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				68E60EDB2A70388A0064A210 /* Documents.xcdatamodeld */,
+				68E60EDF2A70DDEE0064A210 /* DocumentStorageConfiguration.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		68E813202A0C9B530091F4A8 = {
+			isa = PBXGroup;
+			children = (
+				68E8132C2A0C9B530091F4A8 /* ScanflowDocumentCapture */,
+				68E8132B2A0C9B530091F4A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E8132B2A0C9B530091F4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E8132A2A0C9B530091F4A8 /* ScanflowDocumentCapture.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E8132C2A0C9B530091F4A8 /* ScanflowDocumentCapture */ = {
+			isa = PBXGroup;
+			children = (
+				8BD887C82BB40C7F000C72AC /* ScanflowCore.framework */,
+				68A982432A78C53800EEC793 /* Cells */,
+				68E8137E2A0CEC8C0091F4A8 /* Extension */,
+				68E813442A0CA9540091F4A8 /* Custom */,
+				68E8132D2A0C9B530091F4A8 /* ScanflowDocumentCapture.h */,
+				68E8132E2A0C9B530091F4A8 /* ScanflowDocumentCapture.docc */,
+				68E8133E2A0C9CEC0091F4A8 /* DocumentCapture.storyboard */,
+				68E813402A0CA21E0091F4A8 /* HomeViewController.swift */,
+				68E813422A0CA2320091F4A8 /* DocumentScaningViewController.swift */,
+				68DF4F2A2A0E29BB00A2EEA3 /* DocumentPreviewViewController.swift */,
+				68E813832A0D08FA0091F4A8 /* Media.xcassets */,
+				68A034192A0D433C00D04CCC /* PdfViewViewController.swift */,
+				68DF4F322A0E3BD200A2EEA3 /* CropViewViewController.swift */,
+				68C50B0C2A11E437005D05D3 /* DocumentReorderViewController.swift */,
+				68C50B0E2A12385F005D05D3 /* DocumentFilterViewController.swift */,
+				68C50B182A14A703005D05D3 /* PopoverViewController.swift */,
+				68A9824B2A78C7CA00EEC793 /* DocumentViewViewController.swift */,
+				6897C3D12A7A46680025A2FB /* ExportAsViewController.swift */,
+				6891E71D2A8C91F00016DF23 /* EditDocuemntViewController.swift */,
+				6825806C2A95CB1F0017B395 /* ExportPreviewViewController.swift */,
+			);
+			path = ScanflowDocumentCapture;
+			sourceTree = "<group>";
+		};
+		68E813442A0CA9540091F4A8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				68E60EDE2A70DD9E0064A210 /* CoreData */,
+				689BDACF2A2EC522002955CD /* detector */,
+				68E813822A0CEDA10091F4A8 /* View */,
+				68E8134B2A0CADD20091F4A8 /* Cells */,
+				68E813452A0CA95F0091F4A8 /* buttons */,
+				68C50B162A13E879005D05D3 /* SFDocumentConfig.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		68E813452A0CA95F0091F4A8 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				68E813462A0CA9800091F4A8 /* CircleButton.swift */,
+				68E8137C2A0CC9D30091F4A8 /* SFButton.swift */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		68E8134B2A0CADD20091F4A8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				68E813812A0CED910091F4A8 /* CollectionVIew */,
+				68E8134C2A0CADD70091F4A8 /* UITableViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		68E8134C2A0CADD70091F4A8 /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				68E8134D2A0CAE070091F4A8 /* DocumentListTableViewCell.swift */,
+				68E8134E2A0CAE070091F4A8 /* DocumentListTableViewCell.xib */,
+				68C50B102A123C27005D05D3 /* SelectFilterTableViewCell.swift */,
+				68C50B112A123C27005D05D3 /* SelectFilterTableViewCell.xib */,
+				6897C3D32A7A57140025A2FB /* ExportAsTitleTableViewCell.swift */,
+				6897C3D52A7A586C0025A2FB /* ExportFormatsTableViewCell.swift */,
+				68A3353C2A8E048400C0BADD /* ExportTypesTableViewCell.swift */,
+				68A3353D2A8E048400C0BADD /* ExportTypesTableViewCell.xib */,
+				68A335412A8E0C5500C0BADD /* ResolutionTypeTableViewCell.xib */,
+				68A335442A8E16F500C0BADD /* ResolutionTypeTableViewCell.swift */,
+				682580682A8F9BD80017B395 /* SetPasswordTableViewCell.swift */,
+				682580692A8F9BD80017B395 /* SetPasswordTableViewCell.xib */,
+				6826F0F82A971C7D00402110 /* PDFPasswordTableViewCell.swift */,
+				6826F0F92A971C7D00402110 /* PDFPasswordTableViewCell.xib */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		68E8137E2A0CEC8C0091F4A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				68E8137F2A0CECA40091F4A8 /* UIColor.swift */,
+				68A0341B2A0D462800D04CCC /* PdfView.swift */,
+				6889EED42A0D54F3008F5B92 /* UIView.swift */,
+				6874474C2A0DE6F3003D48BD /* UIViewController.swift */,
+				68DF4F302A0E381B00A2EEA3 /* cropView.swift */,
+				68940EC52A0EA8C100EDC05E /* SFDocumentHelper.swift */,
+				68C50B142A13724C005D05D3 /* UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		68E813812A0CED910091F4A8 /* CollectionVIew */ = {
+			isa = PBXGroup;
+			children = (
+				68DF4F2C2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.swift */,
+				68DF4F2D2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.xib */,
+			);
+			path = CollectionVIew;
+			sourceTree = "<group>";
+		};
+		68E813822A0CEDA10091F4A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68E813252A0C9B530091F4A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E813302A0C9B530091F4A8 /* ScanflowDocumentCapture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68E813292A0C9B530091F4A8 /* ScanflowDocumentCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E813332A0C9B530091F4A8 /* Build configuration list for PBXNativeTarget "ScanflowDocumentCapture" */;
+			buildPhases = (
+				68E813252A0C9B530091F4A8 /* Headers */,
+				68E813262A0C9B530091F4A8 /* Sources */,
+				68E813272A0C9B530091F4A8 /* Frameworks */,
+				68E813282A0C9B530091F4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanflowDocumentCapture;
+			productName = ScanflowDocumentCapture;
+			productReference = 68E8132A2A0C9B530091F4A8 /* ScanflowDocumentCapture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E813212A0C9B530091F4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					68E813292A0C9B530091F4A8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 68E813242A0C9B530091F4A8 /* Build configuration list for PBXProject "ScanflowDocumentCapture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E813202A0C9B530091F4A8;
+			productRefGroup = 68E8132B2A0C9B530091F4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E813292A0C9B530091F4A8 /* ScanflowDocumentCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E813282A0C9B530091F4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C50B132A123C28005D05D3 /* SelectFilterTableViewCell.xib in Resources */,
+				6825806B2A8F9BD80017B395 /* SetPasswordTableViewCell.xib in Resources */,
+				68A335432A8E0C5500C0BADD /* ResolutionTypeTableViewCell.xib in Resources */,
+				68A3353F2A8E048400C0BADD /* ExportTypesTableViewCell.xib in Resources */,
+				68E813502A0CAE070091F4A8 /* DocumentListTableViewCell.xib in Resources */,
+				68A9824A2A78C7AA00EEC793 /* DocumentViewCollectionViewCell.xib in Resources */,
+				68E813842A0D08FA0091F4A8 /* Media.xcassets in Resources */,
+				6826F0FB2A971C7D00402110 /* PDFPasswordTableViewCell.xib in Resources */,
+				68DF4F2F2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.xib in Resources */,
+				68E8133F2A0C9CEC0091F4A8 /* DocumentCapture.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E813262A0C9B530091F4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E60EDD2A70388A0064A210 /* Documents.xcdatamodeld in Sources */,
+				6826F0FA2A971C7D00402110 /* PDFPasswordTableViewCell.swift in Sources */,
+				68A9824C2A78C7CA00EEC793 /* DocumentViewViewController.swift in Sources */,
+				6889EED52A0D54F3008F5B92 /* UIView.swift in Sources */,
+				68A3353E2A8E048400C0BADD /* ExportTypesTableViewCell.swift in Sources */,
+				68C50B152A13724C005D05D3 /* UIImage.swift in Sources */,
+				6897C3D22A7A46680025A2FB /* ExportAsViewController.swift in Sources */,
+				68E8134F2A0CAE070091F4A8 /* DocumentListTableViewCell.swift in Sources */,
+				68E813802A0CECA40091F4A8 /* UIColor.swift in Sources */,
+				68940EC62A0EA8C100EDC05E /* SFDocumentHelper.swift in Sources */,
+				68A982492A78C7AA00EEC793 /* DocumentViewCollectionViewCell.swift in Sources */,
+				6825806D2A95CB1F0017B395 /* ExportPreviewViewController.swift in Sources */,
+				68A0341A2A0D433C00D04CCC /* PdfViewViewController.swift in Sources */,
+				68E8132F2A0C9B530091F4A8 /* ScanflowDocumentCapture.docc in Sources */,
+				689BDAD52A2EC57A002955CD /* Extendable.swift in Sources */,
+				689BDAD12A2EC532002955CD /* RectangleDetector.swift in Sources */,
+				68E813432A0CA2320091F4A8 /* DocumentScaningViewController.swift in Sources */,
+				68DF4F332A0E3BD200A2EEA3 /* CropViewViewController.swift in Sources */,
+				68C50B0F2A12385F005D05D3 /* DocumentFilterViewController.swift in Sources */,
+				6874474D2A0DE6F3003D48BD /* UIViewController.swift in Sources */,
+				68C50B0D2A11E437005D05D3 /* DocumentReorderViewController.swift in Sources */,
+				6897C3D62A7A586C0025A2FB /* ExportFormatsTableViewCell.swift in Sources */,
+				68DF4F312A0E381B00A2EEA3 /* cropView.swift in Sources */,
+				68E60EE02A70DDEE0064A210 /* DocumentStorageConfiguration.swift in Sources */,
+				68E813412A0CA21E0091F4A8 /* HomeViewController.swift in Sources */,
+				68A335452A8E16F500C0BADD /* ResolutionTypeTableViewCell.swift in Sources */,
+				689BDAD32A2EC553002955CD /* Rectangle.swift in Sources */,
+				68E8137D2A0CC9D30091F4A8 /* SFButton.swift in Sources */,
+				68C50B192A14A703005D05D3 /* PopoverViewController.swift in Sources */,
+				689BDADF2A2EC71A002955CD /* Array+Utils.swift in Sources */,
+				68DF4F2E2A0E2A2D00A2EEA3 /* DocumentPreviewCollectionViewCell.swift in Sources */,
+				68C50B172A13E879005D05D3 /* SFDocumentConfig.swift in Sources */,
+				68DF4F2B2A0E29BB00A2EEA3 /* DocumentPreviewViewController.swift in Sources */,
+				6897C3D42A7A57140025A2FB /* ExportAsTitleTableViewCell.swift in Sources */,
+				6891E71E2A8C91F00016DF23 /* EditDocuemntViewController.swift in Sources */,
+				68E813472A0CA9800091F4A8 /* CircleButton.swift in Sources */,
+				689BDADD2A2EC6C8002955CD /* EditScanCornerView.swift in Sources */,
+				6825806A2A8F9BD80017B395 /* SetPasswordTableViewCell.swift in Sources */,
+				689BDAD92A2EC644002955CD /* RectangleView.swift in Sources */,
+				68C50B122A123C27005D05D3 /* SelectFilterTableViewCell.swift in Sources */,
+				689BDAE12A2EC8F6002955CD /* RectangleFeaturesFunnel.swift in Sources */,
+				689BDAD72A2EC61B002955CD /* CGPoint+Utils.swift in Sources */,
+				68A0341C2A0D462800D04CCC /* PdfView.swift in Sources */,
+				689BDADB2A2EC6A3002955CD /* CGAffineTransform+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68E813312A0C9B530091F4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68E813322A0C9B530091F4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68E813342A0C9B530091F4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 423UNFB7Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanflowDocumentCapture",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScanflowDocumentCapture;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E813352A0C9B530091F4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 423UNFB7Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanflowDocumentCapture",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScanflowDocumentCapture;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E813242A0C9B530091F4A8 /* Build configuration list for PBXProject "ScanflowDocumentCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E813312A0C9B530091F4A8 /* Debug */,
+				68E813322A0C9B530091F4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E813332A0C9B530091F4A8 /* Build configuration list for PBXNativeTarget "ScanflowDocumentCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E813342A0C9B530091F4A8 /* Debug */,
+				68E813352A0C9B530091F4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68E60EDB2A70388A0064A210 /* Documents.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68E60EDC2A70388A0064A210 /* Documents.xcdatamodel */,
+			);
+			currentVersion = 68E60EDC2A70388A0064A210 /* Documents.xcdatamodel */;
+			path = Documents.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68E813212A0C9B530091F4A8 /* Project object */;
+}

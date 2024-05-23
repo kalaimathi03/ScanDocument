@@ -1,0 +1,11 @@
+framework module ScanflowDocumentCapture {
+  umbrella header "ScanflowDocumentCapture.h"
+  export *
+
+  module * { export * }
+}
+
+module ScanflowDocumentCapture.Swift {
+  header "ScanflowDocumentCapture-Swift.h"
+  requires objc
+}
